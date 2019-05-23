@@ -20,3 +20,12 @@ body {
 .footer-bottom {
 	bottom: 0;
 }
+.form-width {
+	width: 1000px;
+}
+.section-container {
+	background-color: #ffffff;
+	margin-top: 50px;
+	border: 1px solid #dddddd;
+	padding: 20px;
+}
