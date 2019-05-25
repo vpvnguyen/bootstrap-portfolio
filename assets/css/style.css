@@ -18,10 +18,12 @@ body {
 	background-color: #ffffff;
 	padding-bottom: 140px;
 	padding-left: 70px;
+	font-family: 'Roboto', sans-serif;
 }
 .about-content {
 	font-size: 18px;
 	padding-top: 15px;
+	font-family: 'Roboto', sans-serif;
 }
 #profile-image {
 	float: left;
@@ -30,6 +32,7 @@ body {
 }
 .footer-bottom {
 	bottom: 0;
+	font-family: 'Roboto', sans-serif;
 }
 .form-width {
 	width: 1000px;
@@ -50,6 +53,7 @@ body {
 	height: 200px;
 	position: relative;
 	margin-bottom: 20px;
+	font-family: 'Roboto', sans-serif;
 }
 .image {
 	position: absolute;
