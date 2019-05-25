@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,15 +10,14 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Bootstrap - Portfolio</title>
 </head>
-
 <body>
+    <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="./index.html">Vincent Nguyen</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
@@ -31,8 +29,10 @@
                 <li class="nav-item active">
                     <a class="nav-link" href="./contact.html">Contact<span class="sr-only">(current)</span></a>
                 </li>
+            </ul>
         </div>
     </nav>
+    <!-- Content -->
     <div class="container">
         <div class="row">
             <div class="col-md-8-auto align-items-center text-center content">
@@ -40,32 +40,29 @@
                     <h1 class="top-header">Contact</h1>
                     <hr>
                     <form class="form-width">
-                            <div class="form-group">
-                              <label for="exampleFormControlInput1">Name</label>
-                              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Vincent Nguyen">
-                            </div>
-                            <div class="form-group">
-                                <label for="exampleFormControlInput1">Email</label>
-                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="email@example.com">
-                            </div>
-                            <div class="form-group">
-                              <label for="exampleFormControlTextarea1">Message</label>
-                              <textarea class="form-control" id="exampleFormControlTextarea1" rows="10" placeholder="Say Hi!"></textarea>
-                            </div>
-                            <input class="btn btn-primary sub-btn" type="submit" value="Submit">
-                          </form>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Name</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Vincent Nguyen">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Email</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="email@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Message</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="10" placeholder="Say Hi!"></textarea>
+                        </div>
+                        <input class="btn btn-primary sub-btn" type="submit" value="Submit">
+                    </form>
                 </div>
             </div>
         </div>
     </div>
-
     <!-- Footer -->
     <div class="container">
         <footer class="page-footer font-small blue">
             <div class="footer-copyright text-center py-3 footer-bottom">© 2019 Copyright</div>
         </footer>
     </div>
-
 </body>
-
 </html>
